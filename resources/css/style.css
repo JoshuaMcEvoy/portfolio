@@ -642,3 +642,8 @@ footer p {
 .js--wp-3.animated {
   opacity: 1;
 }
+
+.works-github-link:link,
+.works-github-link:visited {
+  border-bottom: 0;
+}
