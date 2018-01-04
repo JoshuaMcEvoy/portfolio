@@ -81,6 +81,7 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  // Mobile navigation
 
   $('.js--nav-icon').click(function() {
     let nav = $('.js--main-nav');
