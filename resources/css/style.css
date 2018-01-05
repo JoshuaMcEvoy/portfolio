@@ -647,8 +647,3 @@ footer p {
 .works-github-link:visited {
   border-bottom: 0;
 }
-
-.mobile-nav-icon:link,
-.mobile-nav-icon:visited {
-  border-bottom: 0;
-}
