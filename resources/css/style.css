@@ -591,28 +591,7 @@ footer {
   color: white;
 }
 
-.social-links li a:link,
-.social-links li a:visited {
-  font-size: 160%;
-}
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
-}
-
-.ion-social-github:hover {
-  color: #4078c0;
-}
-.ion-social-twitter:hover {
-  color: #00aced;
-}
-.ion-social-linkedin:hover {
-  color: #0077b5;
-}
 
 footer p {
   color: #888;
