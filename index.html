@@ -17,29 +17,31 @@
   <title>Joshua McEvoy - Portfolio</title>
 </head>
 <body>
-  <header>
-    <!-- navigation -->
-    <nav>
-      <div class="row">
-        <img src="resources/img/logo-white.png" alt="Omnifood" class="logo">
-        <img src="resources/img/logo.png" alt="Omnifood" class="logo-black">
-        <ul class="main-nav js--main-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#cities">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="#" class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+  <div >
+    <header id="particles-js">
+      <!-- navigation -->
+      <nav>
+        <div class="row">
+          <img src="resources/img/logo-white.png" alt="Omnifood" class="logo">
+          <img src="resources/img/logo.png" alt="Omnifood" class="logo-black">
+          <ul class="main-nav js--main-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#cities">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#" class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        </div>
+      </nav>
+
+      <div class="hero-text-box">
+        <h1>Joshua McEvoy<br/> Full-stack developer</h1>
+        <a class="btn btn-full js--scroll-to-about" href="#">About me</a>
+        <a class="btn btn-ghost js--scroll-to-contact" href="#">Contact me</a>
       </div>
-    </nav>
 
-    <div class="hero-text-box">
-      <h1>Joshua McEvoy<br/> Full-stack developer</h1>
-      <a class="btn btn-full js--scroll-to-about" href="#">About me</a>
-      <a class="btn btn-ghost js--scroll-to-contact" href="#">Contact me</a>
-    </div>
-
-  </header>
+    </header>
+  </div>
 
   <!-- About -->
   <section class="section-about js--section-about" id="about">
@@ -364,7 +366,12 @@
   <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
   <script src="resources/js/script.js" charset="utf-8"></script>
   <script src="vendors/js/jquery.waypoints.min.js" charset="utf-8"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" charset="utf-8"></script>
+  <script>
+  particlesJS.load('particles-js', 'resources/js/particles.json', function() {
+      console.log('particles.json file loaded.');
+    });
+  </script>
 
 </body>
 
