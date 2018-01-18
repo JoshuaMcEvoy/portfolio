@@ -264,7 +264,7 @@ input[type=submit] {
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 200px;
+  border-radius: 3px;
   border: 1px solid #3498db;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -358,6 +358,10 @@ input[type=submit]:active {
 /* ------------------------------- */
 /* HOW IT WORKS */
 /* ------------------------------- */
+
+.section-form {
+  background-color: #F4F4F4;
+}
 
 .section-steps {
   background-color: #F4F4F4;
