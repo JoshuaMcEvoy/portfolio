@@ -79,6 +79,12 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $(window).on('scroll', function(){
+    const height = parseInt($('header').css('height'));
+    const scrollTop = $(window).scrollTop() - (height);
+    $('header').css('background-position-y', scrollTop );
+  });
+
   // Mobile navigation
 
   $('.js--nav-icon').click(function() {
