@@ -315,16 +315,16 @@ input[type=submit]:active {
 /* MEALS */
 /* ------------------------------- */
 
-.section-works {
+.section-works-gallery {
   padding: 0;
 }
 
-.meals-showcase {
+.works-showcase {
   list-style: none;
   width: 100%;
 }
 
-.meals-showcase li {
+.works-showcase li {
   display: block;
   float: left;
   width: 25%;
