@@ -149,6 +149,7 @@ header {
   height: 100vh;
   background-size: 100vw 200vh;
   background-position-y: -100vh;
+  /*smoothes out the scrolling*/
   background-attachment: fixed;
 }
 
