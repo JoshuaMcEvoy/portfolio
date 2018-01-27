@@ -1,3 +1,7 @@
+console.log(`%c I see you like looking under the hood! `, `background: #3498db; color: white; display: block;`);
+console.log(`%c I hope that's because you like what you see and want a closer look. `, `background: #3498db; color: white; display: block;`);
+console.log(`%c You can check out my work here https://github.com/JoshuaMcEvoy `, `background: #3498db; color: white; display: block;`);
+console.log(`%c (V)(;,;)(V) `, `background: #3498db; color: white; display: block;`);
 
 $(document).ready(function() {
 
