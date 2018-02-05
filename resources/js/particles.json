@@ -9,13 +9,13 @@
       "value":"#FFF"
     },
 
-    /* "shape":{
+    "shape":{
       "type":["circle"],
       "stroke":{
         "width":0,
         "color":"#FFF"
       }
-    }, */
+    },
 
     "opacity":{
       "value":0.4,
